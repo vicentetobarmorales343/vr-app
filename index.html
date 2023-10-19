@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="/js/app.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img src="/textures/ahp-op-mcmenu.jpg" id="mc" />
+      </a-assets>
+      <a-sky src="#mc"></a-sky>
+
+    <a-entity position="0 -2 0">
+
+      <a-entity position="0 9 0">
+
+        <!--Fondo-->
+        <a-entity>
+          <a-plane color="yellow" position="-2.5 0.5 -5.01" scale="2 3 1">
+            <a-text color="red" value="1" position="-0.15 0 0.01" scale="2 2 0"></a-text>
+          </a-plane>
+          <a-plane color="CCC8AA" position="1.5 0.5 -5.01" scale="6 3 1"></a-plane>
+        </a-entity>
+
+        <!--Hamburguesa-->
+        <a-entity burger-n="1" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa2-->
+        <a-entity burger-n="2" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="green" scale="1 0.15 1" position="0 1.25 -4"></a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="red" scale="1 0.15 1" position="0 0.7 -4"></a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa3-->
+        <a-entity burger-n="3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+        </a-entity>
+
+      </a-entity>
+
+      <a-entity position="0 6 0">
+
+        <!--Fondo-->
+        <a-entity>
+          <a-plane color="yellow" position="-2.5 0.5 -5.01" scale="2 3 1">
+            <a-text color="red" value="2" position="-0.15 0 0.01" scale="2 2 0"></a-text>
+          </a-plane>
+          <a-plane color="CCC8AA" position="1.5 0.5 -5.01" scale="6 3 1"></a-plane>
+        </a-entity>
+
+        <!--Hamburguesa-->
+        <a-entity burger-n="1" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa2-->
+        <a-entity burger-n="2" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="green" scale="1 0.15 1" position="0 1.25 -4"></a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="red" scale="1 0.15 1" position="0 0.7 -4"></a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa3-->
+        <a-entity burger-n="3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Bebida-->
+        <a-entity>
+          <a-cylinder color="red" scale="0.5 1.5 0.5" position="2 0.5 -4">
+            <a-torus scale="0.75 0.75 0.2" rotation="90 0 0" position="0 0.5 0" color="grey" side="double"></a-ring>
+          </a-cylinder>
+        </a-entity>
+
+      </a-entity>
+
+      <a-entity position="0 3 0">
+
+        <!--Fondo-->
+        <a-entity>
+          <a-plane color="yellow" position="-2.5 0.5 -5.01" scale="2 3 1">
+            <a-text color="red" value="3" position="-0.15 0 0.01" scale="2 2 0"></a-text>
+          </a-plane>
+          <a-plane color="CCC8AA" position="1.5 0.5 -5.01" scale="6 3 1"></a-plane>
+        </a-entity>
+        
+        <!--Hamburguesa-->
+        <a-entity burger-n="1" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa2-->
+        <a-entity burger-n="2" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="green" scale="1 0.15 1" position="0 1.25 -4"></a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="red" scale="1 0.15 1" position="0 0.7 -4"></a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa3-->
+        <a-entity burger-n="3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Papas Fritas-->
+        <a-entity position="2 0.3 -4">
+          <a-box color="red" scale="1 1 0.5">
+            <a-text color="yellow" value="M" position="-0.225 0 0.51" scale="2 2 0"></a-text>
+            <a-entity>
+              <a-box color="yellow" scale="0.2 1 0.2" position="-0.4 1 0" rotation="0 0 10"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="-0.15 1 0" rotation="0 0 5"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="0.15 1 0" rotation="0 0 -5"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="0.4 1 0" rotation="0 0 -10"></a-box>
+            </a-entity>
+          </a-box>
+        </a-entity>
+
+      </a-entity>
+
+      <a-entity position="0 0 0">
+
+        <!--Fondo-->
+        <a-entity>
+          <a-plane color="yellow" position="-2.5 0.5 -5.01" scale="2 3 1">
+            <a-text color="red" value="4" position="-0.15 0 0.01" scale="2 2 0"></a-text>
+          </a-plane>
+          <a-plane color="CCC8AA" position="1.5 0.5 -5.01" scale="6 3 1"></a-plane>
+        </a-entity>
+        
+        <!--Hamburguesa-->
+        <a-entity burger-n="1" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Hamburguesa2-->
+        <a-entity burger-n="2" visible="false">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="green" scale="1 0.15 1" position="0 1.25 -4"></a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="red" scale="1 0.15 1" position="0 0.7 -4"></a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+
+         <!--Hamburguesa3-->
+         <a-entity burger-n="3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+        </a-entity>
+
+        <!--Papas Fritas-->
+        <a-entity position="2 0.3 -4">
+          <a-box color="red" scale="1 1 0.5">
+            <a-text color="yellow" value="M" position="-0.225 0 0.51" scale="2 2 0"></a-text>
+            <a-entity>
+              <a-box color="yellow" scale="0.2 1 0.2" position="-0.4 1 0" rotation="0 0 10"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="-0.15 1 0" rotation="0 0 5"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="0.15 1 0" rotation="0 0 -5"></a-box>
+              <a-box color="yellow" scale="0.2 1 0.2" position="0.4 1 0" rotation="0 0 -10"></a-box>
+            </a-entity>
+          </a-box>
+        </a-entity>
+        
+        <!--Bebida-->
+        <a-cylinder color="red" scale="0.5 1.5 0.5" position="3.5 0.5 -4">
+          <a-torus scale="0.75 0.75 0.2" rotation="90 0 0" position="0 0.5 0" color="grey" side="double"></a-ring>
+        </a-cylinder>
+      </a-entity>
+      
+    </a-entity>
+
+    <!--Cámara-->
+    <a-entity>
+      <a-camera position="0 3 6" wasd-controls="enabled: false">
+        <a-cursor></a-cursor>
+      </a-camera>
+    </a-entity>
+
+    <!--Elección Hamburguesa-->
+
+    <!--Elección 1-->
+    <a-entity position="-6 7 -5.01" option="1">
+      <a-plane color="#8B0000" scale="3 3 0.5" >
+          <!--Hamburguesa-->
+          <a-entity visible="true" position="0 -0.15 2" scale="0.3 0.3 0.3">
+            <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1 -4">
+            </a-sphere>
+            <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+            <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+            </a-sphere>
+          </a-entity>
+      </a-plane>
+    </a-entity>
+    
+    <!--Elección 2-->
+    <a-entity position="-6 3 -5.01" option="2">
+      <a-plane color="#8B0000" scale="3 3 0.5">
+        <a-entity visible="true" position="0 -0.15 2" scale="0.3 0.3 0.3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+      </a-plane>
+    </a-entity>
+
+    <!--Elección 3-->
+    <a-entity position="-6 -1 -5.01" option="3">
+      <a-plane color="#8B0000" scale="3 3 0.5" >
+        <!--Hamburguesa3-->
+        <a-entity visible="true" position="0 -0.15 2" scale="0.3 0.3 0.3">
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 0 -4"> </a-sphere>
+          <a-sphere color="green" scale="1 0.15 1" position="0 1.25 -4"></a-sphere>
+          <a-box color="yellow" scale="1.5 0.05 1.5" position="0 1 -4"> </a-box>
+          <a-sphere color="red" scale="1 0.15 1" position="0 0.7 -4"></a-sphere>
+          <a-sphere color="#7c3f00" scale="1 0.3 1" position="0 0.5 -4">
+          </a-sphere>
+          <a-sphere color="#CC5500" scale="1 0.3 1" position="0 1.5 -4">
+          </a-sphere>
+        </a-entity>
+      </a-plane>
+    </a-entity>
+
+    </a-scene>
+  </body>
+</html>
